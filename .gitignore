@@ -1,0 +1,26 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+/backend/vendor/
+/frontend/node_modules/
+
+# Build outputs
+/frontend/.next/
+/frontend/out/
+/backend/bootstrap/cache/*.php
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
