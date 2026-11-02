@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -65,7 +64,7 @@ export default function LoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               required
               autoComplete="email"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
               placeholder="Enter your email"
             />
           </div>
@@ -84,7 +83,7 @@ export default function LoginPage() {
               onChange={(e) => setPassword(e.target.value)}
               required
               autoComplete="current-password"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
               placeholder="Enter your password"
             />
           </div>

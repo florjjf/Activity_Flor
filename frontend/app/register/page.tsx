@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -77,7 +76,7 @@ export default function RegisterPage() {
               onChange={(e) => setName(e.target.value)}
               required
               autoComplete="name"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
               placeholder="Enter your full name"
             />
           </div>
@@ -93,7 +92,7 @@ export default function RegisterPage() {
               onChange={(e) => setEmail(e.target.value)}
               required
               autoComplete="email"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
               placeholder="Enter your email"
             />
           </div>
@@ -110,8 +109,7 @@ export default function RegisterPage() {
               required
               minLength={8}
               autoComplete="new-password"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
-              placeholder="At least 8 characters"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
             />
           </div>
 
@@ -130,7 +128,7 @@ export default function RegisterPage() {
               required
               minLength={8}
               autoComplete="new-password"
-              className="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-blue-500"
+              className="w-full rounded-lg border border-gray-300 p-3 text-black outline-none focus:border-blue-500"
               placeholder="Re-enter your password"
             />
           </div>
